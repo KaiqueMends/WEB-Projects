@@ -1,0 +1,97 @@
+/* Colors */
+.spot-color-white{
+    color: var(--white);
+}
+
+.spot-color-black{
+    color: var(--black);
+}
+
+.spot-color-gray{
+    color: var(--gray);
+}
+
+.spot-color-gray-dark{
+    color: var(--gray-dark);
+}
+
+/* Bakcgrounds */
+.spot-bg-black{
+    background: var(--black);
+}
+
+.spot-bg-white{
+    background: var(--white);
+}
+
+/* Fonts */
+.spot-font-100{
+    font-weight: 100;
+}
+
+.spot-font-500{
+    font-weight: 500;
+}
+
+.spot-font-700{
+    font-weight: 700;
+}
+
+.spot-font-900{
+    font-weight: 900;
+}
+
+/* Flex */
+.spot-flex-full{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spot-flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Buttons */
+.spot-btn-white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--white);
+    color: var(--black);
+
+    padding: .8rem 3rem;
+    border-radius: 1.6rem;
+    font-size: .9rem;
+
+    text-transform: uppercase;
+
+    transition: all 0.3s ease-out;
+}
+
+.spot-btn-white:hover{
+    transform: scale(1.05);
+}
+
+.spot-btn-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: var(--black-secondary);
+    color: var(--white);
+
+    font-size: 1.4rem;
+    padding: 1rem;
+
+    width: 3.4rem;
+    height: 3.4rem;
+    border-radius: 50%;
+}
+
+.spot-btn-circle:hover{
+    color: var(--green);
+}
