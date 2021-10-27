@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#topo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    background-image: linear-gradient(-90deg,#fc8e93,#f26a8c);
+}
+
+#topo h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 3px 5px;
+}
+
+#sec1 {
+    background-image: linear-gradient(#fc8e93,#f26a8c );
+    height: auto;
+}
+
+#sec1 h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 2px black;
+    font-size: 60px;
+    color: #fff;
+}
+
+#sec1 h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+.bt-proj {
+    padding: 10px 50px;
+    box-shadow: 2px 2px 2px black;
+    border: 0;
+    border-radius: 25px;
+    color: #f26a8c;
+    transition: background 2s;
+    background: #fff;
+}
+
+.bt-proj:hover {
+    background: #fc8e93;
+    border: 1px solid white;  
+}
+
+#sec2 h2 {
+    color: #37507a;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#sec2 h4 {
+    color: #37507a;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#sec3 {
+    background-image: linear-gradient(-90deg, #f26a8c, #c19799);
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#sec3 h2 {
+    color: #fff;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: #000;
+}
+
+#sec3 p {
+    color: #f26a8c;
+    font-weight: bold;
+}
+
+.box3 {
+    background: #fff;
+    text-align: center;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    box-shadow: 2px 2px 2px;
+}
+
+.icone {
+    font-size: 40px;
+    color: #f26a8c;
+}
+
+#sec4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 5px solid #f26a8c;
+}
+
+.circle:hover {
+    transition: 1s;
+    opacity: 0.6;
+} 
